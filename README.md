@@ -15,7 +15,7 @@ Requirements
 
 Use for quick install: 
   
-     sudo ./installer.sh
+     sudo /home/user/YouTube-Bot/installer.sh
 
 Install
 ------------
