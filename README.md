@@ -3,6 +3,7 @@ A bot that downloads from chosen YouTube Channels/Playlists and then will re-upl
 
 Requirements
 ------------
+- sudo apt install git
 - sudo apt install python3
 - sudo apt install python3-pip
 - sudo pip3 install youtube_dl
@@ -14,7 +15,7 @@ Requirements
 
 Install
 ------------
-Grab Repository:
+Download Repository:
 
-    git https://github.com/HarringtonTom/YouTube-Bot.git
+    git clone https://github.com/HarringtonTom/YouTube-Bot.git YouTube-Bot
     
