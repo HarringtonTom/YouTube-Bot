@@ -22,4 +22,14 @@ Install
 Download Repository:
 
     git clone https://github.com/HarringtonTom/YouTube-Bot.git YouTube-Bot
-    
+
+Make Scripts Executable: 
+
+    chmod +x /home/user/YouTube-Bot/uploader.py
+    chmod +x /home/user/YouTube-Bot/installer.sh
+    chmod +x /home/user/YouTube-Bot/YouTube-Bot.sh
+
+Make Folders for Videos: 
+
+    mkdir /home/user/YouTube-Bot/videos
+    mkdir /home/user/YouTube-Bot/archivedvideos
