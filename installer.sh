@@ -18,6 +18,9 @@ sudo pip3 install youtube_dl > /dev/null 2>&1
 echo "Installing ffmpeg..." 
 sudo apt install ffmpeg > /dev/null 2>&1
 
+echo "Installing git..." 
+sudo apt install git > /dev/null 2>&1
+
 echo -e "\e[31mInstallation Complete" 
 
 echo -e "\e[39m" 
