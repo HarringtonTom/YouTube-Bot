@@ -1,0 +1,1 @@
+All the videos you've downloaded so that YouTube-dl doesn't download them again. #remove this line
