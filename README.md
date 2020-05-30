@@ -13,6 +13,10 @@ Requirements
 - pip3 install google-auth-httplib2
 - pip3 install oauth2client
 
+Use for quick install: 
+  
+     sudo ./installer.sh
+
 Install
 ------------
 Download Repository:
