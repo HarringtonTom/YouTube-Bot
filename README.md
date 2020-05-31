@@ -26,6 +26,23 @@ Make Scripts Executable:
     chmod +x ./upload.py
     chmod +x ./YouTube-Bot.sh
 
+Install Packages: 
+
+    cd YouTube-Bot
+    sudo ./installer.sh
+
+Or Install Manually: 
+    
+    sudo apt install git
+    sudo apt install python3
+    sudo apt install python3-pip
+    sudo pip3 install youtube_dl
+    sudo apt install ffmpeg
+    pip3 install google-api-python-client
+    pip3 install google-auth-oauthlib 
+    pip3 install google-auth-httplib2
+    pip3 install oauth2client
+
 Make Folders for Videos: 
 
     cd YouTube-bot
