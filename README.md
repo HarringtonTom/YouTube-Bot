@@ -56,3 +56,21 @@ Create 'client_secret.json'
 - Go to Credentials and create new OAuth client ID credential. Choose any Application type doesn't really matter and name as YouTube Uploader again. 
 - Now download the client secret json file to the YouTube-Bot Folder and make sure to rename to client_secret.json
 
+Setup 'config' 
+
+    {
+        "API_name": "youtube",
+        "API_ver": "v3",
+        "videos_path": "/home/user/YouTube-Bot/videos/",
+        "archived_videos_path": "/home/user/YouTube-Bot/archivedvideos/",
+        "do_archive_videos": true,
+        "secret_path": "/home/user/YouTube-Bot/client_secret.json",
+        "refresh_token_path": "",
+        "default_parameters": {
+            "privacy": "public",
+            "description": "/home/user/YouTube-Bot/description.txt",
+            "description_as_file": true,
+            "tags": ["lol", "lmao"],
+            "categoryID": 24
+        }
+    }
