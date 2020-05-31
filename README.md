@@ -93,5 +93,6 @@ Add your YouTube-dl Command to the Script:
 
     youtube-dl --playlist-end 2 --download-archive '/home/user/YouTube-Bot/downloaded.txt' -i -o "/home/user/YouTube-Bot/videos/%(title)s" -f bestvideo+bestaudio --merge-output-format mkv --batch-file='/home/user/YouTube-Bot/channel_list.txt'
     
-    --playlist-end 2 = Only scans the last 2 videos in the playlist which speeds up scanning
-    --download-archive = Links to all the videos you've downloaded so that YouTube-dl doesn't keep downloading them
+   **--playlist-end 2** = Only scans the last 2 videos in the playlist which speeds up scanning
+   
+   **--download-archive** = Links to all the videos you've downloaded so that YouTube-dl doesn't keep downloading them
