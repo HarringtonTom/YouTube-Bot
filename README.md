@@ -3,7 +3,6 @@ A bot that downloads from chosen YouTube Channels/Playlists and then re-uploads 
 
 Requirements
 ------------
-- git
 - python3
 - python3-pip
 - youtube_dl
@@ -33,7 +32,6 @@ Install Packages:
 
 Or Install Manually: 
     
-    sudo apt install git
     sudo apt install python3
     sudo apt install python3-pip
     sudo pip3 install youtube_dl
