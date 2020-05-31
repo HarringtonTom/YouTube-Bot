@@ -15,7 +15,7 @@ Requirements
 General
 ------------
 - **videos** - Folder that Videos are downloaded to
-- **archivedvideos** -Folder of Videos that have already been uploaded (Stops them from being reuploaded everytime script runs)
+- **archivedvideos** - Folder of Videos that have already been uploaded (Stops them from being reuploaded everytime script runs)
 - **client_secret.json** - Used to log into Google Account 
 - **refresh_token.json** - Used to log into YouTube Brand Account
 
