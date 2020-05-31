@@ -62,6 +62,7 @@ Setup 'config'
     sudo nano config.json
 
 Edit the config however you want, make sure to change 'user'. 
+
     {
         "API_name": "youtube",
         "API_ver": "v3",
