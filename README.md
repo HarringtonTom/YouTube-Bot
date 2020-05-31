@@ -12,6 +12,13 @@ Requirements
 - google-auth-httplib2
 - oauth2client
 
+General
+------------
+- videos: Folder that Videos are downloaded to
+- archivedvideos: Folder of Videos that have already been uploaded (Stops them from being reuploaded everytime script runs)
+- client_secret.json: Used to log into Google Account 
+- refresh_token.json: Used to log into YouTube Brand Account
+
 Install
 ------------
 **Download Repository:**
