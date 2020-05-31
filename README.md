@@ -86,13 +86,24 @@ Add Description and Channel/Playlist list:
     sudo nano channel_list.txt
     sudo nano description.txt
     
-Add your YouTube-dl Command to the Script: 
+Edit Script: 
 
     cd YouTube-Bot
     sudo nano YouTube-Bot
+
+Add YouTube-dl Command
 
     youtube-dl --playlist-end 2 --download-archive '/home/user/YouTube-Bot/downloaded.txt' -i -o "/home/user/YouTube-Bot/videos/%(title)s" -f bestvideo+bestaudio --merge-output-format mkv --batch-file='/home/user/YouTube-Bot/channel_list.txt'
     
    **--playlist-end 2** = Only scans the last 2 videos in the playlist which speeds up scanning
    
    **--download-archive** = Links to all the videos you've downloaded so that YouTube-dl doesn't keep downloading them
+
+Edit Python script location
+
+    python3 '/home/user/YouTube-Bot/upload.py'
+
+Setup YouTube Uploader: 
+
+    cd YouTube-Bot
+    python3 upload.py
