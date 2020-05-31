@@ -15,7 +15,7 @@ Requirements
 
 Use for quick install: 
   
-     sudo /home/user/YouTube-Bot/installer.sh
+     sudo ./installer.sh
 
 Install
 ------------
@@ -25,14 +25,14 @@ Download Repository:
 
 Make Scripts Executable: 
 
-    chmod +x /home/user/YouTube-Bot/uploader.py
-    chmod +x /home/user/YouTube-Bot/installer.sh
-    chmod +x /home/user/YouTube-Bot/YouTube-Bot.sh
+    chmod +x ./uploader.py
+    chmod +x ./installer.sh
+    chmod +x ./YouTube-Bot.sh
 
 Make Folders for Videos: 
 
-    mkdir /home/user/YouTube-Bot/videos
-    mkdir /home/user/YouTube-Bot/archivedvideos
+    mkdir /YouTube-Bot/videos
+    mkdir /YouTube-Bot/archivedvideos
 
 Create 'client_secret.json' 
 
