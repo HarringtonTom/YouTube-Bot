@@ -58,6 +58,9 @@ Create 'client_secret.json'
 
 Setup 'config' 
 
+    cd YouTube-Bot
+    sudo nano config.json
+
     {
         "API_name": "youtube",
         "API_ver": "v3",
