@@ -107,3 +107,26 @@ Setup YouTube Uploader:
 
     cd YouTube-Bot
     python3 run.py
+ 
+ - Go to the link in Browser and use it to log into your YouTube Brand Account 
+ - Give YouTube Uploader permission to your Account
+ - Copy code and paste
+
+Test YouTube-Bot Script: 
+
+    cd YouTube-Bot
+    ./YouTube-Bot.sh
+
+ - The Script should now download and upload your chosen Videos
+
+Automate the Process: 
+   
+    crontab -e
+    
+    * * * * * '/home/user/YouTube-Bot/YouTube-Bot.sh'
+
+I also recommend adding a log file, so that if the Script doesn't work you can see why: 
+
+    * * * * * '/home/user/YouTube-Bot/YouTube-Bot.sh' 1> /dev/null 2> /home/user/YouTube-Bot.err
+
+**YOU ARE NOW DONE, I HOPE YOU ENJOY THE SCRIPT**
