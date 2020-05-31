@@ -1,14 +1,14 @@
 {
     "API_name": "youtube",
     "API_ver": "v3",
-    "videos_path": "/home/user/YouTube-Bot/videos/", #make sure to change user to your username
-    "archived_videos_path": "/home/user/YouTube-Bot/archivedvideos/", #make sure to change user to your username
+    "videos_path": "/home/user/YouTube-Bot/videos/", 
+    "archived_videos_path": "/home/user/YouTube-Bot/archivedvideos/", 
     "do_archive_videos": true,
-    "secret_path": "/home/user/YouTube-Bot/client_secret.json", #make sure to change user to your username
+    "secret_path": "/home/user/YouTube-Bot/client_secret.json", 
     "refresh_token_path": "",
     "default_parameters": {
         "privacy": "public",
-        "description": "/home/user/YouTube-Bot/description.txt", #make sure to change user to your username
+        "description": "/home/user/YouTube-Bot/description.txt", 
         "description_as_file": true,
         "tags": ["lol", "lmao"],
         "categoryID": 24
