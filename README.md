@@ -36,10 +36,10 @@ Make Folders for Videos:
 
 Create 'client_secret.json' 
 
-- Go to Google API Console - https://console.developers.google.com/
-- Create new Project and name as "YouTube Uploader" or anything you want :) 
-- Go to API's and Services and enable the "YouTube Data API" 
-- Go to OAuth consent screen and register - Set User Type to External, Enter Application Name (YouTube Uploader) and leave the rest default. 
-- Go to Credentials and create new OAuth client ID credential. Choose any Application type doesn't really matter and name as YouTube Uploader again. 
-- Now download the client secret json file and make sure to rename to client_secret.json
+    - Go to Google API Console - https://console.developers.google.com/
+    - Create new Project and name as "YouTube Uploader" or anything you want :) 
+    - Go to API's and Services and enable the "YouTube Data API" 
+    - Go to OAuth consent screen and register - Set User Type to External, Enter Application Name (YouTube Uploader) and leave the rest default. 
+    - Go to Credentials and create new OAuth client ID credential. Choose any Application type doesn't really matter and name as YouTube Uploader again. 
+    - Now download the client secret json file to the YouTube-Bot Folder and make sure to rename to client_secret.json
 
