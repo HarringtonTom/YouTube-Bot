@@ -3,15 +3,15 @@ A bot that downloads from chosen YouTube Channels/Playlists and then re-uploads 
 
 Requirements
 ------------
-- sudo apt install git
-- sudo apt install python3
-- sudo apt install python3-pip
-- sudo pip3 install youtube_dl
-- sudo apt install ffmpeg
-- pip3 install google-api-python-client
-- pip3 install google-auth-oauthlib 
-- pip3 install google-auth-httplib2
-- pip3 install oauth2client
+- git
+- python3
+- python3-pip
+- youtube_dl
+- ffmpeg
+- google-api-python-client
+- google-auth-oauthlib 
+- google-auth-httplib2
+- oauth2client
 
 Install
 ------------
