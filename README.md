@@ -132,7 +132,7 @@ Edit Python script location
     
     * * * * * '/home/user/YouTube-Bot/YouTube-Bot.sh'
 
-I also recommend adding a log file, so that if the Script doesn't work you can see why: 
+I also recommend adding a log file, so that if the Script doesn't work you can see the output: 
 
     * * * * * '/home/user/YouTube-Bot/YouTube-Bot.sh' 1> /dev/null 2> /home/user/YouTube-Bot.err
 
