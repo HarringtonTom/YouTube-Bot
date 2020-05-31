@@ -21,13 +21,16 @@ Download Repository:
 
 Make Scripts Executable: 
 
-    chmod +x ./uploader.py
+    cd YouTube-Bot
+    chmod +x ./installer.sh
+    chmod +x ./upload.py
     chmod +x ./YouTube-Bot.sh
 
 Make Folders for Videos: 
 
-    mkdir /YouTube-Bot/videos
-    mkdir /YouTube-Bot/archivedvideos
+    cd YouTube-bot
+    mkdir videos
+    mkdir archivedvideos
 
 Create 'client_secret.json' 
 
