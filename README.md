@@ -28,9 +28,9 @@ Install
 **Make Scripts Executable:** 
 
     cd YouTube-Bot
-    chmod +x ./installer.sh
-    chmod +x ./run.py
-    chmod +x ./YouTube-Bot.sh
+    chmod +x installer.sh
+    chmod +x run.py
+    chmod +x YouTube-Bot.sh
 
 **Install Packages:** 
 
