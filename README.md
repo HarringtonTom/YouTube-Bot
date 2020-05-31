@@ -13,10 +13,6 @@ Requirements
 - pip3 install google-auth-httplib2
 - pip3 install oauth2client
 
-Use for quick install: 
-  
-     sudo ./installer.sh
-
 Install
 ------------
 Download Repository:
@@ -26,7 +22,6 @@ Download Repository:
 Make Scripts Executable: 
 
     chmod +x ./uploader.py
-    chmod +x ./installer.sh
     chmod +x ./YouTube-Bot.sh
 
 Make Folders for Videos: 
