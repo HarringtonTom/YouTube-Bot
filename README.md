@@ -89,7 +89,7 @@ Add Description and Channel/Playlist list:
 Edit Script: 
 
     cd YouTube-Bot
-    sudo nano YouTube-Bot
+    sudo nano YouTube-Bot.sh
 
 Add YouTube-dl Command
 
