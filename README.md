@@ -61,7 +61,7 @@ Setup 'config'
     cd YouTube-Bot
     sudo nano config.json
 
-Edit the config however you want, make sure to change 'user'. 
+Edit it however you want, but make sure to change 'user'. 
 
     {
         "API_name": "youtube",
@@ -79,3 +79,9 @@ Edit the config however you want, make sure to change 'user'.
             "categoryID": 24
         }
     }
+
+Add Description and Channel/Playlist list: 
+
+    cd YouTube-Bot
+    sudo nano channel_list.txt
+    sudo nano description.txt
