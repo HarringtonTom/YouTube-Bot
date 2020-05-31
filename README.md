@@ -22,7 +22,7 @@ Make Scripts Executable:
 
     cd YouTube-Bot
     chmod +x ./installer.sh
-    chmod +x ./upload.py
+    chmod +x ./run.py
     chmod +x ./YouTube-Bot.sh
 
 Install Packages: 
@@ -101,9 +101,9 @@ Add YouTube-dl Command
 
 Edit Python script location
 
-    python3 '/home/user/YouTube-Bot/upload.py'
+    python3 '/home/user/YouTube-Bot/run.py'
 
 Setup YouTube Uploader: 
 
     cd YouTube-Bot
-    python3 upload.py
+    python3 run.py
