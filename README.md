@@ -68,7 +68,7 @@ Or Install Manually:
     cd YouTube-Bot
     sudo nano config.json
 
-Edit it however you want, but make sure to change 'user'. 
+Edit it however you want, **but make sure to change 'user'.** Also I recommend setting privacy to "Private" during testing.  
 
     {
         "API_name": "youtube",
