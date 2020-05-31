@@ -14,18 +14,18 @@ Requirements
 
 Install
 ------------
-Download Repository:
+**Download Repository:**
 
     git clone https://github.com/HarringtonTom/YouTube-Bot.git YouTube-Bot
 
-Make Scripts Executable: 
+**Make Scripts Executable:** 
 
     cd YouTube-Bot
     chmod +x ./installer.sh
     chmod +x ./run.py
     chmod +x ./YouTube-Bot.sh
 
-Install Packages: 
+**Install Packages:** 
 
     cd YouTube-Bot
     sudo ./installer.sh
@@ -41,13 +41,13 @@ Or Install Manually:
     pip3 install google-auth-httplib2
     pip3 install oauth2client
 
-Make Folders for Videos: 
+**Make Folders for Videos:** 
 
     cd YouTube-bot
     mkdir videos
     mkdir archivedvideos
 
-Create 'client_secret.json' 
+**Create 'client_secret.json'** 
 
 - Go to Google API Console - https://console.developers.google.com/
 - Create new Project and name as "YouTube Uploader" or anything you want :) 
@@ -56,7 +56,7 @@ Create 'client_secret.json'
 - Go to Credentials and create new OAuth client ID credential. Choose any Application type doesn't really matter and name as YouTube Uploader again. 
 - Now download the client secret json file to the YouTube-Bot Folder and make sure to rename to client_secret.json
 
-Setup 'config' 
+**Setup 'config' File**
 
     cd YouTube-Bot
     sudo nano config.json
@@ -80,13 +80,13 @@ Edit it however you want, but make sure to change 'user'.
         }
     }
 
-Add Description and Channel/Playlist list: 
+**Add Description and Channel/Playlist list:** 
 
     cd YouTube-Bot
     sudo nano channel_list.txt
     sudo nano description.txt
     
-Edit Script: 
+**Edit Script:** 
 
     cd YouTube-Bot
     sudo nano YouTube-Bot.sh
@@ -103,7 +103,7 @@ Edit Python script location
 
     python3 '/home/user/YouTube-Bot/run.py'
 
-Setup YouTube Uploader: 
+**Setup YouTube Uploader:** 
 
     cd YouTube-Bot
     python3 run.py
@@ -112,14 +112,14 @@ Setup YouTube Uploader:
  - Give YouTube Uploader permission to your Account
  - Copy code and paste
 
-Test YouTube-Bot Script: 
+**Test YouTube-Bot Script:** 
 
     cd YouTube-Bot
     ./YouTube-Bot.sh
 
  - The Script should now download and upload your chosen Videos
 
-Automate the Process: 
+**Automate the Process:** 
    
     crontab -e
     
